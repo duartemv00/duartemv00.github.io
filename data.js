@@ -1,5 +1,5 @@
 export const bio = [
-  "Hello! I'm Vinay Somawat, an experienced Frontend Software Engineer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
+  "Hye there! I'm Duarte Martínez, a Junior Gameplay Programmer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
   "I am passionate about using my technical skills to drive impactful contributions in challenging projects.",
   "Thanks for visiting!",
 ];
@@ -7,46 +7,28 @@ export const bio = [
 export const skills = [
   {
     title: "Languages",
-    skillName: "JavaScript, TypeScript",
+    skillName: "C++, Python",
     color: "1",
-    percentage: "80",
+    percentage: "70",
   },
   {
-    title: "Frameworks/Libraries",
-    skillName: "Angular, RxJS, NGRX/NGXS",
+    title: "Engines",
+    skillName: "Unreal Engine 5",
     color: "6",
     percentage: "70",
   },
   {
-    title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
+    title: "Version Control",
+    skillName: "GitHub, Perforce",
+    color: "7",
+    percentage: "50",
+  },
+  {
+    title: "IDE",
+    skillName: "Rider, Visual Studio Code",
     color: "4",
     percentage: "70",
   },
-  {
-    title: "Version Control",
-    skillName: "GitHub, JIRA, Bitbucket",
-    color: "7",
-    percentage: "70",
-  },
-  {
-    title: "Tools",
-    skillName: "Debugging, Chrome DevTools",
-    color: "3",
-    percentage: "80",
-  },
-//   {
-//     title: "Analytics",
-//     skillName: "CleverTap, Countly",
-//     color: "5",
-//     percentage: "50",
-//   },
-//   {
-//     title: "IDE",
-//     skillName: "VS Code",
-//     color: "6",
-//     percentage: "70",
-//   },
 ];
 
 export const projects = {

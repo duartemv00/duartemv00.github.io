@@ -6,20 +6,26 @@ export const bio = [
 
 export const skills = [
   {
-    title: "Languages",
-    skillName: "C++, Python",
-    color: "1",
-    percentage: "70",
-  },
-  {
     title: "Engines",
     skillName: "Unreal Engine 5",
     color: "6",
     percentage: "70",
   },
   {
+    title: "Languages",
+    skillName: "C++, Python",
+    color: "1",
+    percentage: "70",
+  },
+  {
     title: "Version Control",
-    skillName: "GitHub, Perforce",
+    skillName: "Perforce",
+    color: "7",
+    percentage: "50",
+  },
+  {
+    title: "Version Control",
+    skillName: "GitHub",
     color: "7",
     percentage: "50",
   },
@@ -29,120 +35,140 @@ export const skills = [
     color: "4",
     percentage: "70",
   },
+  {
+    title: "Modeling Engine",
+    skillName: "Autodesk Maya",
+    color: "1",
+    percentage: "70",
+  },
+  {
+    title: "Languages",
+    skillName: "Python",
+    color: "1",
+    percentage: "70",
+  },
 ];
 
 export const projects = {
-  webProjects: [
+  gameProjects: [
     {
-      projectName: "Programming Diaries",
+      projectName: "The Occultist",
       image: "images/programmingdiaries.png",
       summary:
         "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
       preview: "https://programmingdiaries.herokuapp.com/",
-      techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+      techStack: ["C++", "Unreal Engine 5", "Perforce"],
     },
     {
-      projectName: "Find Your Bank",
+      projectName: "Don't Hurt Me",
       image: "images/findyourbank.png",
       summary:
         "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
       preview: "https://clever-fermi-0d5d76.netlify.app",
-      techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+      techStack: ["Unreal Engine 5", "VR"],
     },
     {
-      projectName: "Web Portfolio",
+      projectName: "Moonsprings",
       image: "images/portfolio.png",
       summary:
-        "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
+          "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
+      preview: "https://github.com/vinaysomawat/Travographer-Portal",
+      techStack: ["Unreal Engine 5"],
+    },
+    {
+      projectName: "Grab a Beer",
+      image: "images/portfolio.png",
+      summary:
+          "Arcade game developed using Unity 3D for a Game Jam. The game is about collecting beers in the given time.",
+      preview: "https://github.com/vinaysomawat/Travographer-Portal",
+      techStack: ["C#", "Unity"],
+    },
+    {
+      projectName: "Paper, Sciessors, Rock & Parry",
+      image: "images/portfolio.png",
+      summary:
+          "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
+      preview: "https://github.com/vinaysomawat/Travographer-Portal",
+      techStack: ["C#", "Unity"],
+    },
+  ],
+  pluginProjects: [
+    {
+      projectName: "Better First Person Template",
+      image: "images/portfolio.png",
+      summary:
+          "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
       preview: "https://github.com/vinaysomawat/Travographer-Portal",
       techStack: ["HTML", "Bootstrap", "JavaScript"],
     },
     {
-      projectName: "Resume Builder",
-      image: "images/resume-builder.png",
+      projectName: "Item Interaction System",
+      image: "images/portfolio.png",
       summary:
-        "Browser based editor to build and download Resumes in a customizable templates.",
-      preview: "https://vinaysomawat.github.io/Resume-Builder",
+          "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
+      preview: "https://github.com/vinaysomawat/Travographer-Portal",
       techStack: ["HTML", "Bootstrap", "JavaScript"],
     },
   ],
-  softwareProjects: [
+  codingProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
-      image: "images/pizzaorderchatbot.png",
-      summary:
-        "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-      techStack: ["Dailogflow", "Firebase"],
-    },
-    {
-      projectName: "WhatsApp-Bot",
-      image: "images/whatsappbot.jpg",
-      summary:
-        "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-      techStack: ["Selenium", "Chrome Webdriver", "Python"],
-    },
-    {
-      projectName: "Bill Generator",
-      image: "images/billgenerator.png",
-      summary:
-        "GUI to transfer data to excel sheets and generate bills on the local shops.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
-      techStack: ["Tkinter", "Openxlpy", "Python"],
-    },
-  ],
-  androidProjects: [
-    {
-      projectName: "NITW-CSE",
+      projectName: "Katas",
       image: "images/nitwcse.jpg",
       summary:
         "The Application display details of Department courses, reference books, research, publication and faculty profile.",
       preview: "https://github.com/vinaysomawat/NITW-CSE",
-      techStack: ["JAVA", "XML", "Android"],
+      techStack: ["C++"],
     },
     {
-      projectName: "CareerHigh-App",
+      projectName: "Bytecode Pattern Implementation",
       image: "images/carrerhigh.png",
       summary:
         "The Application display the webpages of website careerhigh.in in android devices.",
       preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-      techStack: ["JAVA", "XML", "Android"],
+      techStack: ["C++"],
+    },
+    {
+      projectName: "Web Portfolio",
+      image: "images/carrerhigh.png",
+      summary:
+          "This portfolio you are watching right now.",
+      preview: "https://github.com/vinaysomawat/CareerHigh-Android",
+      techStack: ["GitHub Pages", "HTML", "CSS", "JavaScript"],
     },
   ],
-  freelanceProjects: [
+  animationProjects: [
     {
-      projectName: "SnylloAir.com",
+      projectName: "Las Aventuras de Timmy en el Espacio",
       image: "images/snylloair.png",
       summary:
         "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
       preview: "https://www.snylloair.com/",
-      techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+      techStack: ["Autodesk Maya", "Adobe Premiere Pro", "Rigging", "3D Modeling"],
     },
     {
-      projectName: "Delivery+",
+      projectName: "Mr Poker",
       image: "images/AM-Logo-.png",
       summary: "Android Application to display website in android devices.",
       preview:
         "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-      techStack: ["Android", "JAVA", "Play Store"],
+      techStack: ["Autodesk Maya", "Adobe Premiere Pro"],
     },
   ],
 };
 
 export const experience = [
   {
-    title: "Shiprocket (Bigfoot Solution Private Limited)",
-    duration: "September 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "DALOAR Studios",
+    duration: "January 2024 - Present",
+    subtitle: "Gameplay Programmer",
     details: ["Working in support and escalation team."],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Unreal Engine 5", "C++", "Perforce"],
     icon: "truck ",
   },
   {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
+    title: "Proyecto Iris",
+    duration: "July 2023 - September 2023",
+    subtitle: "Internship",
     details: [
       `Implemented microfrontends using the Module Federation Plugin in Angular.
             Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
@@ -171,56 +197,22 @@ export const experience = [
     ],
     icon: "heartbeat",
   },
-  {
-    title: "Novopay Solutions Private Limited",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-      `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-      `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-      `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
-  },
-  {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      `Developed a customer web application for social media management, supporting the advertisement domain.`,
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
-  },
 ];
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Bachelor in Digital Creation, Animation and Video Games",
+    duration: "2019 - 2023",
+    subtitle: "Universidade da Coruña, Spain",
     details: [],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Unreal Engine 5",
+      "Python",
+      "C++",
+      "3D Modeling",
+      "3D Rigging",
     ],
     icon: "graduation-cap",
-  },
-  {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
   },
 ];
 
